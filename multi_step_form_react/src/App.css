@@ -1,0 +1,83 @@
+.app {
+  padding: 2rem;
+}
+
+.header h1,
+.header p {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 110, 0.2) 0px 7px 29px 0px;
+}
+
+.form-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.inputs-container {
+  min-height: 300px;
+  margin-bottom: 3rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.form-control input {
+  padding: 1rem 0.2rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 110, 0.2) 0px 2px 8px 0px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 120px;
+  background-color: #633bbc;
+  border: none;
+  gap: 0.2rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background-color: #7746e0;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  resize: none;
+  outline: none;
+  border: none;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 110, 0.2) 0px 2px 8px 0px;
+}
+
+.text-project textarea {
+  height: 230px;
+}
